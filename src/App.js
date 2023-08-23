@@ -3,6 +3,7 @@ import { Navbar } from './sections/Navbar/Navbar'
 import { Main } from './sections/Main/Main'
 import { Rooms } from './sections/Rooms/Rooms'
 import { Bathrooms } from './sections/Bathrooms/Bathrooms'
+import { Places } from './sections/Places/Places'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Main />
       <Rooms />
       <Bathrooms />
+      <Places />
     </div>
   );
 }
