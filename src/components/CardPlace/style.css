@@ -1,0 +1,12 @@
+.card-place{
+    width: 30%;
+}
+
+.card-place-image{
+    border: solid black;
+}
+
+.card-place-image img{
+    width: 100%;
+    margin: 5% 0;
+}

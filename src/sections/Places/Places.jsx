@@ -1,24 +1,16 @@
 import React from 'react'
-import { Card } from '../../components/Card/Card'
 import kitchen from '../../images/kitchen.jpeg'
 import balcony from '../../images/balcony.jpeg'
 import garage from '../../images/garage.jpeg'
+import './style.css'
+import { CardPlace } from '../../components/CardPlace/CardPlace'
 
 export const Places = () => {
     return (
         <div id='places' >
-            <div className='place' >
-                <h2>Cozinha</h2>
-                <Card image={kitchen} />
-            </div>
-            <div className='place' >
-                <h2>Sacada</h2>
-                <Card image={balcony} />
-            </div>
-            <div className='place' >
-                <h2>Garagem</h2>
-                <Card image={garage} />
-            </div>
+            <CardPlace title='Sacada' image={balcony} />
+            <CardPlace title='Garagem' image={garage} />
+            <CardPlace title='Cozinha' image={kitchen} />
         </div>
     )
 }
