@@ -2,7 +2,8 @@ import React from 'react'
 import { Card } from '../../components/Card/Card'
 import bathroomOne from '../../images/bathroomOne.jpeg'
 import bathroomTwo from '../../images/bathroomTwo.jpeg'
-import bathroomThree from '../../images/roomThree.jpeg'
+import bathroomThree from '../../images//bathroomThree.jpeg'
+import './style.css'
 
 export const Bathrooms = () => {
   return (
