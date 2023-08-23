@@ -12,13 +12,12 @@ main {
 }
 
 #main-description h1 {
-    font-size: 50px;
+    font-size: 35px;
 }
 
 #main-description p {
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 50px;
+    font-size: 14px;
+    margin-bottom: 30px;
 }
 
 #main-description-button {
