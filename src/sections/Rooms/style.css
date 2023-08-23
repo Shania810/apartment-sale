@@ -1,0 +1,14 @@
+#rooms {
+    width: 90%;
+    margin: 20px 0;
+}
+
+#rooms h2 {
+    font-size: 35px;
+}
+
+#rooms-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}

@@ -3,15 +3,17 @@ import { Card } from '../../components/Card/Card'
 import roomOne from '../../images/roomOne.jpeg'
 import roomTwo from '../../images/roomTwo.jpeg'
 import roomThree from '../../images/roomThree.jpeg'
+import './style.css'
 
 export const Rooms = () => {
     return (
-        <div>
+        <div id='rooms'>
             <h2>Quartos</h2>
-            <hr></hr>
-            <Card image={roomOne} />
-            <Card image={roomTwo} />
-            <Card image={roomThree} />
+            <div id='rooms-cards'>
+                <Card image={roomOne} />
+                <Card image={roomTwo} />
+                <Card image={roomThree} />
+            </div>
         </div>
     )
 }
