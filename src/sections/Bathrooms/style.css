@@ -1,0 +1,14 @@
+#bathrooms {
+    width: 90%;
+    margin: 20px 0;
+}
+
+#bathrooms h2 {
+    font-size: 35px;
+}
+
+#bathrooms-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
