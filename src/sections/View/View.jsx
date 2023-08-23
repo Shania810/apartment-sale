@@ -1,11 +1,16 @@
 import React from 'react'
-import view from '../../images/view.jpeg'
+import kitchen from '../../images/kitchen.jpeg'
+import './style.css'
 
 export const View = () => {
     return (
-        <div>
-            <h2>Vista</h2>
-            <img src={view} alt={view} />
+        <div id='view' >
+            <h2>Cozinha</h2>
+            <div>
+                <figure>
+                    <img src={kitchen} alt={kitchen} />
+                </figure>
+            </div>
         </div>
     )
 }

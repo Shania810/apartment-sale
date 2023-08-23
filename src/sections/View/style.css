@@ -1,0 +1,13 @@
+#view {
+    width: 90%;
+    margin: 3% 0;
+}
+
+#view div {
+    border: solid black;
+}
+
+#view img {
+    width: 100%;
+    margin: 1% 0;
+}
