@@ -1,5 +1,5 @@
 import React from 'react'
-import imageMain from '../../../images/view.jpeg'
+import imageMain from '../../images/main.jpeg'
 
 export const Main = () => {
     return (
@@ -11,7 +11,7 @@ export const Main = () => {
                     Prédio com apenas seis andares.Garagem privativa para um carro grande e portão exclusivo para vaga térreo.
                     Sacada com churrasqueira á carvão e pia.
                 </p>
-                <button><a href='https://api.whatsapp.com/send?phone=47997290020'>Contate-nos</a></button>
+                <a href='https://api.whatsapp.com/send?phone=47997290020'>Contate-nos</a>
             </div>
             <div id='main-image' >
                 <img src={imageMain} alt={imageMain} />

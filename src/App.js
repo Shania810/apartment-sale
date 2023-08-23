@@ -1,6 +1,6 @@
 import './App.css'
 import { Navbar } from './sections/Navbar/Navbar'
-import {Main} from './sections/Main/Main'
+import { Main } from './sections/Main/Main'
 
 function App() {
   return (
