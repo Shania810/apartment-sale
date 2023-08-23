@@ -4,6 +4,7 @@ import { Main } from './sections/Main/Main'
 import { Rooms } from './sections/Rooms/Rooms'
 import { Bathrooms } from './sections/Bathrooms/Bathrooms'
 import { Places } from './sections/Places/Places'
+import { View } from './sections/View/View'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Rooms />
       <Bathrooms />
       <Places />
+      <View />
     </div>
   );
 }
